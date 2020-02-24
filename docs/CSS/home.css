@@ -1,10 +1,11 @@
+body 
 * {
     padding: 0;
     margin: 0;
 }
 
 h1 {
-    font-family: 'Arial Narrow Bold', sans-serif;
+    font-family: 'Times New Roman', Times, serif, fantasy;
     text-align: center;
     margin: 10px
 
@@ -14,7 +15,7 @@ a {
     padding: 20px;
     margin: 20px;
     color: rgb(214, 129, 143);
-    
+    font-family: monospace;
 }
 
 body {
