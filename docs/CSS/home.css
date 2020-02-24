@@ -4,13 +4,19 @@
 }
 
 h1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Arial Narrow Bold', sans-serif;
     text-align: center;
     margin: 10px
+
 }
 
 a {
     padding: 20px;
     margin: 20px;
-    color: rgb(230, 132, 149);
+    color: rgb(214, 129, 143);
+    
+}
+
+body {
+    background-color: rgb(194, 203, 255);
 }
