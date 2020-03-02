@@ -1,0 +1,51 @@
+h1 {
+    text-align: center;
+    padding: 6vw;
+}
+
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+    top: 60%;
+    left: 0px;
+    animation-name: move-right;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+
+.box2 {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    position: absolute;
+    top: 60%;
+    left: 50px;
+    animation-name: move-right;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+
+
+
+@keyframes move-right {
+
+    0% {left: 5px; top: 25%; border-radius: 80px}
+    50% {left: 300px; top: 250px; border-radius: 80px}
+    70% {left: 400px; top: 400px; border-radius: 100px}
+    75% {left: 280px; top: 600px; border-radius: 80px}
+    100% {left: 600px; top: 500px; border-radius: 80%}
+
+}
+
+
+

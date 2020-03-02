@@ -1,0 +1,56 @@
+h1 {text-align: center;}
+
+body {
+  padding: 200px; 
+  align-items: center;
+}
+
+.container {
+  width: 400px;
+  height: 20px;
+  border: 1px solid;
+  display: flex;
+  
+}
+
+#inner-bar{
+  background-color: green;
+  width: 100px;
+  height: 100%;
+  transition: 4s linear;
+  animation-name: loading;
+  animation-duration: 4s;
+  display: flex;
+  
+}
+
+@keyframes loading {
+  0% {
+    width: 0;
+  }
+  
+  20% {
+    width: 20%;
+    background: green;
+  }
+  
+  40% {
+    width: 40%;
+    background: green;
+  }
+  
+  60% {
+    width: 60%;
+    background: green;
+  }
+  
+  80% {
+    width: 80%;
+    background: green;
+  }
+  
+  100% {
+    width: 100%;
+    background: green;
+  }
+}
